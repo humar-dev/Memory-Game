@@ -18,8 +18,6 @@ body {
     height: 570px;
     perspective: 1000px;
     margin: 50px auto;
-
-
 }
 
 .card {
@@ -48,8 +46,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .card.flip {
@@ -82,8 +78,6 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     /* Box shadow with #EE219B color */
 }
-
-
 
 .start-button:hover {
     transform: scale(1.3);
