@@ -4,9 +4,8 @@ const card = document.querySelector('.card');
 startButton.addEventListener('click', () => {
     // Trigger the card flip
     card.classList.add('flip');
+
 });
-
-
 
 const getData = () => [
     { imgSrc: "./images/pookie-G.png", name: "P-G" },

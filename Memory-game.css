@@ -38,7 +38,6 @@ body {
     left: 0;
     backface-visibility: hidden;
     border-radius: 10px;
-
 }
 
 .card-front {
@@ -92,8 +91,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-
 }
 
 .game {
