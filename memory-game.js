@@ -38,12 +38,12 @@ for (let i = 0; i < shuffleImages.length; i++) {
     box.className = "item";
 
     // Create an img element and set its src attribute
-    let img = document.createElement('img');
-    img.src = shuffleImages[i].imgSrc;
-    img.alt = shuffleImages[i].name; // Set alt text for accessibility
+    let image = document.createElement('img');
+    image.src = shuffleImages[i].imgSrc;
+    image.alt = shuffleImages[i].name; // Set alt text for accessibility
 
     // Append the img element to the box
-    box.appendChild(img);
+    box.appendChild(image);
 
     box.onclick = function () {
         this.classList.add('Boxopen');
@@ -95,7 +95,6 @@ for (let i = 0; i < shuffleImages.length; i++) {
 //                 if (document.querySelectorAll('.BoxMatch').length == shuffleImages.length) {
 //                     alert(Win);
 //                 }
-
 //             }
 //             else {
 //                 document.querySelectorAll('.Boxopen')[1].classList.remove('BoxMatch');
